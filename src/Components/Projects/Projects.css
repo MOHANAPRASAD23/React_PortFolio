@@ -1,0 +1,93 @@
+
+.ProjectContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  column-count: 3;
+  margin-left: auto;
+  margin-right: auto;
+  color: #D6D6D6;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.flip-card {
+  width: 350px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 350px;
+  height:300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: #8C8C8C;
+  background-color: #d6d6d605;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right,#8C8C8C, #413c3c);
+  border-image-slice: 1;
+  align-items: center;
+}
+.flip-card-front>h1{
+  background-color: #8c8c8c00;
+}
+span{
+  background-color: #0b090900;
+  font-weight: bold;
+  color: #D6D6D6;
+}
+.flip-card-back {
+  color: #8C8C8C;
+  background-color: #d6d6d605;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #413c3c,#8C8C8C);
+  border-image-slice: 1;
+  transform: rotateY(180deg);
+  
+}
+.flip-card-back>.PaddingContent>h2{
+  background-color: #8c8c8c00;
+  color: #D6D6D6;
+}
+.flip-card-back>.PaddingContent>p{
+  text-align: justify;
+  background-color: #8c8c8c00;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100vh;
+  row-gap: 20px;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  width: 100vw;
+  padding-top: 3%;
+}
+
+.PaddingContent{
+  height:300px;
+  background-color: #8c8c8c00;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+.header{
+  display: flex;
+  align-items: center;
+  background-color:#0B0909;
+  /* opacity: ; */
+  color: #8C8C8C;
+  padding: 1px;
+  top: 0px;
+  position: sticky;
+  height: max-content;
+  z-index: 2000;
+}
+.header__left{
+  flex: content;
+}
+.header__left > h1{
+font-family: 'Charm', cursive;
+letter-spacing: 1px;
+/* padding: 20px 0; */
+}
+.header__left>h1>span{
+  color: #D6D6D6;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.header__right{
+  display: flex;
+  flex: auto;
+  justify-content: space-evenly;
+}
+.header__right>a>h4{
+  font-size: medium;
+  cursor: pointer;
+  /* transition: ease-in-out; */
+  padding: 10px;
+}
+.header__right>a>h4:active{
+  text-decoration: underline #D6D6D6 2px;
+  color: #D6D6D6;
+}
+.header__right>a>h4:hover{
+  background-color: #D6D6D6;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: max-content;
+  /* border: 2px; */
+  /* padding: 10px; */
+  color: #0B0909;
+  /* color: white; */
+  /* text-decoration: underline #D6D6D6 2px; */
+  /* font-size: 18px; */
+}

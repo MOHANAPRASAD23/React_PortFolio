@@ -1,0 +1,35 @@
+.Education{
+  text-align: center;
+  color: #8C8C8C;
+  padding-top: 7%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Education>h1{
+  color: #D6D6D6;
+  padding-bottom: 8%;
+}
+
+.EducationTable,th,td,tr{
+  border: 2px solid #D6D6D6;
+  border-collapse: collapse;
+  height: 50px;
+}
+
+.EducationTable>th{
+  color: #D6D6D6;
+  border-color:2px solid #D6D6D6;
+  height: 30px;
+}
+
+.EducationTable{
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.EducationTable>tr>td{
+  text-align: left;
+  padding-left: 2%;
+}

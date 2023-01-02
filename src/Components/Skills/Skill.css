@@ -1,0 +1,35 @@
+.Skills>h1{
+  text-align: center;
+  color: #D6D6D6;
+  padding-top: 7%;
+}
+.SkillContainer>h5{
+  color: #8C8C8C;
+  padding-top:30px;
+  /* padding-bottom: 10px; */
+  font-size: 15px;
+}
+
+.SkillContainer{
+  /* align-items: center; */
+  /* padding-left: 35%; */
+  /* display: flex; */
+  /* margin-right: auto;
+  margin-right: auto; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.SkillContainer>.MuiLinearProgress-colorPrimary{
+  background-color: #D6D6D6;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1{
+  background-image: linear-gradient(to right,#8C8C8C, #413c3c);
+}
+
+.Skills{
+  height: max-content;
+  /* padding: 70px 0; */  
+}
